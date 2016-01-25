@@ -1,0 +1,34 @@
+{
+  "name": "neodork/sonataredirectbundle",
+  "type": "symfony-bundle",
+  "description": "Neodork CoreCms",
+  "keywords": ["core", "cms", "neodork"],
+  "homepage": "http://louvanderlaarse.nl",
+  "authors": [
+    {
+      "name": "Lou van der Laarse",
+      "email": "neodork.dev@gmail.com",
+      "homepage": "https://www.louvanderlaarse.nl"
+    }
+  ],
+  "require": {
+    "sonata-project/admin-bundle": "~2.3",
+    "symfony-cmf/routing-bundle": "~1.1"
+  },
+  "require-dev": {
+
+  },
+  "suggest": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "Neodork\\SonataRedirectBundle\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1"
+    }
+  }
+}

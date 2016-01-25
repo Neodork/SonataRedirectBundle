@@ -1,0 +1,9 @@
+parameters:
+    neodork.redirect.manager.redirect.class: Neodork\SonataRedirectBundle\Entity\RedirectManager
+
+services:
+    neodork.redirect.manager.redirect:
+        class: %neodork.redirect.manager.redirect.class%
+        arguments:
+            - %neodork.redirect.manager.redirect.entity%
+            - @doctrine
