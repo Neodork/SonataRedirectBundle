@@ -1,8 +1,8 @@
 {
-  "name": "neodork/sonataredirectbundle",
+  "name": "neodork/sonata-redirect-bundle",
   "type": "symfony-bundle",
-  "description": "Neodork CoreCms",
-  "keywords": ["core", "cms", "neodork"],
+  "description": "Neodork Sonata Redirect Bundle",
+  "keywords": ["sonata", "redirect", "neodork"],
   "homepage": "http://louvanderlaarse.nl",
   "authors": [
     {
@@ -13,6 +13,7 @@
   ],
   "require": {
     "sonata-project/admin-bundle": "~2.3",
+    "sonata-project/doctrine-orm-admin-bundle": "~2.3",
     "symfony-cmf/routing-bundle": "~1.1"
   },
   "require-dev": {
@@ -28,7 +29,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "0.1"
+      "dev-master": "dev-develop"
     }
   }
 }
