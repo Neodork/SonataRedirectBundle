@@ -1,0 +1,9 @@
+parameters:
+    neodork.redirect.router.class: Neodork\SonataRedirectBundle\Route\RedirectRouter
+
+services:
+    neodork.redirect.router:
+        class: %neodork.redirect.router.class%
+        arguments:
+            - @neodork.redirect.manager.redirect
+            - @router.default

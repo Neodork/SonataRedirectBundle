@@ -1,0 +1,9 @@
+services:
+    neodork.redirect.admin.redirect:
+        class: %neodork.redirect.admin.redirect.class%
+        arguments:
+            - ~
+            - %neodork.redirect.admin.redirect.entity%
+            - %neodork.redirect.admin.redirect.controller%
+        tags:
+            - {name: "sonata.admin", manager_type: "orm", group: "Sonata Redirect", label: "Redirect"}
