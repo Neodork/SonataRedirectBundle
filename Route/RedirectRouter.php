@@ -98,7 +98,7 @@ class RedirectRouter implements ChainedRouterInterface
         }
 
         return array (
-            '_controller' => 'NeodorkRedirectBundle:Redirect:redirect',
+            '_controller' => 'NeodorkSonataRedirectBundle:Redirect:redirect',
             '_route'      => '_redirected',
             'redirect'    => $redirect,
             'url'        => $this->decorateUrl($redirect->getToPath(), array(), self::ABSOLUTE_PATH, true),

@@ -14,7 +14,7 @@ namespace Neodork\SonataRedirectBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
-class SonataRedirectBundle extends Controller
+class RedirectController extends Controller
 {
 
     public function redirectAction(Request $request)
