@@ -27,7 +27,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('neodork_redirect');
+        $rootNode = $treeBuilder->root('neodork_sonata_redirect');
 
         // @formatter:off
         $rootNode

@@ -4,6 +4,7 @@
   "description": "Neodork Sonata Redirect Bundle",
   "keywords": ["sonata", "redirect", "neodork"],
   "homepage": "http://louvanderlaarse.nl",
+  "license": "MIT",
   "authors": [
     {
       "name": "Lou van der Laarse",
