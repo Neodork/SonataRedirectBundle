@@ -10,7 +10,7 @@
     -->
     <entity
         name="Application\Neodork\SonataRedirectBundle\Entity\Redirect"
-        table="corecms__redirect">
+        table="neodork__redirect">
 
         <id name="id" type="integer" column="id">
             <generator strategy="AUTO"/>

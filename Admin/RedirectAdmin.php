@@ -18,7 +18,7 @@ use Sonata\AdminBundle\Datagrid\ListMapper;
 use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Sonata\AdminBundle\Validator\ErrorElement;
 
-class SonataRedirectBundle extends Admin
+class RedirectAdmin extends Admin
 {
     /**
      * {@inheritdoc}
