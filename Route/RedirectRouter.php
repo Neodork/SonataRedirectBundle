@@ -97,6 +97,10 @@ class RedirectRouter implements ChainedRouterInterface
             throw new ResourceNotFoundException('Redirect not found!');
         }
 
+        if(!$redirect->getEnabled()){
+            throw new ResourceNotFoundException('Redirect is disabled!');
+        }
+
         return array (
             '_controller' => 'NeodorkSonataRedirectBundle:Redirect:redirect',
             '_route'      => '_redirected',
