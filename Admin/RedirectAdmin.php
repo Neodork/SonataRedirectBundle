@@ -29,8 +29,9 @@ class RedirectAdmin extends Admin
             ->add('name')
             ->add('fromPath')
             ->add('toPath')
-            ->add('createdAt')
+            ->add('enabled')
             ->add('updatedAt')
+            ->add('createdAt')
         ;
     }
 
@@ -43,6 +44,7 @@ class RedirectAdmin extends Admin
             ->addIdentifier('name')
             ->add('fromPath', 'url')
             ->add('toPath', 'url')
+            ->add('enabled')
             ->add('updatedAt')
             ->add('createdAt')
         ;
@@ -57,6 +59,7 @@ class RedirectAdmin extends Admin
             ->add('name')
             ->add('fromPath')
             ->add('toPath')
+            ->add('enabled')
             ->add('updatedAt')
             ->add('createdAt')
         ;
