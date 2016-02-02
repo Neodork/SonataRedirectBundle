@@ -5,7 +5,7 @@ Reference Guide
 ---------------
 
 .. toctree::
-:maxdepth: 1
+      :maxdepth: 1
       :numbered:
 
       reference/installation
