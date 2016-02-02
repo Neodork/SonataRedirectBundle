@@ -1,9 +1,9 @@
-Sonata Redirect Bundle
+Neodork Sonata Redirect Bundle
 ==================
 
 A redirecting implementation for Sonata Admin.
 
-* [Installation](#)
+[![Documentation Status](https://readthedocs.org/projects/sonataredirectbundle/badge/?version=latest)](http://sonataredirectbundle.readthedocs.org/en/latest/?badge=latest)
 
 **Development**: For questions and proposals you can post issues on Github.
 
