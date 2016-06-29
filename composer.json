@@ -13,9 +13,9 @@
     }
   ],
   "require": {
-    "sonata-project/admin-bundle": "^2.3",
-    "sonata-project/doctrine-orm-admin-bundle": "~2.3",
-    "sonata-project/easy-extends-bundle": "~2.1",
+    "sonata-project/admin-bundle": "^3.0",
+    "sonata-project/doctrine-orm-admin-bundle": "^3.0",
+    "sonata-project/easy-extends-bundle": "^3.0",
     "symfony-cmf/routing-bundle": "~1.1"
   },
   "require-dev": {
